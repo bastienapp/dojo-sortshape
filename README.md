@@ -1,7 +1,7 @@
 # Shape
 
 Ajoute à l'interface Shape les méthodes perimeter et area.
-Crée les classes Rectangle et Circle implémentant l'interface Shape, et redéfinissant les méthodes permeter et area.
+Crée les classes Rectangle et Circle implémentant l'interface Shape, et redéfinissant les méthodes perimeter et area.
 La classe Rectangle aura en plus une méthode isSquare indiquant si le rectangle est ou non un carré.
 
 
