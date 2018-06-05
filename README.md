@@ -1,6 +1,4 @@
-Although shapes can be very different by nature, they can be sorted by the size of their area.
-
-Task:
+## Shape
 
 Create different shapes that can be part of a sortable list. The sort order is based on the size of their respective areas:
 
@@ -11,25 +9,21 @@ Create different shapes that can be part of a sortable list. The sort order is b
 
 The default sort order of a list of shapes is ascending on area size:
 
-``` java
-double side = 1.1234;
-double radius = 1.1234;
-double base = 5;
-double height = 2;
+	double side = 1.1234;
+	double radius = 1.1234;
+	double base = 5;
+	double height = 2;
 
-ArrayList<Shape> shapes = new ArrayList<Shape>();
-shapes.add(new Square(side));
-shapes.add(new Circle(radius));
-shapes.add(new Triangle(base, height));
+	ArrayList<Shape> shapes = new ArrayList<Shape>();
+	shapes.add(new Square(side));
+	shapes.add(new Circle(radius));
+	shapes.add(new Triangle(base, height));
 
-Collections.sort(shapes);
-```
+	Collections.sort(shapes);
 
 Use the correct π constant for your circle area calculations:
 
-``` java
-Math.PI
-```
+	Math.PI
 
 Rappel des commandes junit :
 
